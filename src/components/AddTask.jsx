@@ -17,7 +17,7 @@ const AddTask = () => {
        <input value={text}
          onChange={(e)=> setText(e.target.value)}
        type="text" placeholder='Enter a task'  className='border rounded px-3  py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-400' />
-       <button onClick={handleAdd} className='bg-blue-400 text-white rounded px-4 py-2 hover:bg-blue-700'>Add</button>
+       <button onClick={handleAdd} className='bg-blue-400 text-white rounded px-4 py-2 cursor-pointer hover:bg-blue-700'>Add</button>
     </div>
   )
 }
